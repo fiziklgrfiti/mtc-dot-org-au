@@ -1,0 +1,15 @@
+<!-- Figure shortcode for enhanced image display with caption -->
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    {{ if .Get "link" }}
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{ end }}
+    <img src="{{ .Get "src" }}"
+         {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+         {{ with .Get "width" }}width="{{ . }}"{{ end }}
+         {{ with .Get "height" }}height="{{ . }}"{{ end }}
+         {{ with .Get "loading" }}loading="{{ . }}"{{ else }}loading="lazy"{{ end }}>
+    {{ if .Get "link" }}</a>{{ end }}
+    {{ with .Get "caption" }}
+        <figcaption>{{ . | markdownify }}</figcaption>
+    {{ end }}
+</figure>

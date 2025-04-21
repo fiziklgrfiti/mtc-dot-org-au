@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        {{ if or (eq .Section "news") (eq .Section "events") }}
+        <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+        {{ end }}
+    </div>
+</section>
+
+<article class="content">
+    <div class="container">
+        {{ if .Params.image }}
+        <img class="featured-image" src="{{ .Params.image }}" alt="{{ .Title }}">
+        {{ end }}
+        
+        {{ .Content }}
+        
+        {{ if eq .Section "events" }}
+        <div class="event-meta">
+            {{ with .Params.location }}
+            <div class="meta-item">
+                <strong>Location:</strong> {{ . }}
+            </div>
+            {{ end }}
+            
+            {{ with .Params.date }}
+            <div class="meta-item">
+                <strong>Date:</strong> {{ . | time.Format "January 2, 2006" }}
+            </div>
+            {{ end }}
+            
+            {{ with .Params.time }}
+            <div class="meta-item">
+                <strong>Time:</strong> {{ . }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</article>
+{{ end }}

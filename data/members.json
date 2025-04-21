@@ -1,0 +1,70 @@
+{
+    "boardMembers": [
+      {
+        "name": "Sarah Johnson",
+        "position": "President",
+        "bio": "Triathlete for 10 years, completed 5 Ironman events",
+        "image": "sarah-johnson.jpg"
+      },
+      {
+        "name": "Mark Rodriguez",
+        "position": "Vice President",
+        "bio": "Former collegiate swimmer, triathlon coach",
+        "image": "mark-rodriguez.jpg"
+      },
+      {
+        "name": "David Kim",
+        "position": "Treasurer",
+        "bio": "Financial advisor, marathon runner and cyclist",
+        "image": "david-kim.jpg"
+      },
+      {
+        "name": "Lisa Wong",
+        "position": "Secretary",
+        "bio": "Triathlon enthusiast, specialized in sprint distance",
+        "image": "lisa-wong.jpg"
+      },
+      {
+        "name": "James Patel",
+        "position": "Training Coordinator",
+        "bio": "USAT Level 1 Coach, sports science background",
+        "image": "james-patel.jpg"
+      },
+      {
+        "name": "Emma Thompson",
+        "position": "Events Manager",
+        "bio": "Event planning professional, amateur triathlete",
+        "image": "emma-thompson.jpg"
+      }
+    ],
+    "coaches": [
+      {
+        "name": "Michael Stevens",
+        "role": "Head Coach",
+        "certification": "USAT Level 2 Coach",
+        "specialty": "Overall triathlon strategy and periodization",
+        "image": "michael-stevens.jpg"
+      },
+      {
+        "name": "Anna Martinez",
+        "role": "Swim Coach",
+        "certification": "USA Swimming Coach",
+        "specialty": "Open water swimming and technique correction",
+        "image": "anna-martinez.jpg"
+      },
+      {
+        "name": "Robert Chen",
+        "role": "Bike Coach",
+        "certification": "USA Cycling Coach",
+        "specialty": "Power-based training and bike handling skills",
+        "image": "robert-chen.jpg"
+      },
+      {
+        "name": "Tanya Wilson",
+        "role": "Run Coach",
+        "certification": "USATF Level 2 Coach",
+        "specialty": "Running economy and injury prevention",
+        "image": "tanya-wilson.jpg"
+      }
+    ]
+  }

@@ -1,0 +1,131 @@
+{
+    "weekly": [
+      {
+        "day": "Monday",
+        "sessions": [
+          {
+            "discipline": "Run",
+            "time": "6:30 PM - 8:00 PM",
+            "location": "High School Track",
+            "description": "Track session with intervals and speed work",
+            "coach": "Tanya Wilson",
+            "levels": ["All levels"]
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "sessions": [
+          {
+            "discipline": "Swim",
+            "time": "7:00 PM - 8:30 PM",
+            "location": "City Aquatic Center",
+            "description": "Technique and endurance focus with lane assignments based on ability",
+            "coach": "Anna Martinez",
+            "levels": ["Beginner", "Intermediate", "Advanced"]
+          }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "sessions": [
+          {
+            "discipline": "Bike",
+            "time": "6:00 PM - sunset",
+            "location": "Riverside Park",
+            "description": "Group rides at various paces",
+            "coach": "Robert Chen",
+            "levels": [
+              "A Group (25-30 mph)",
+              "B Group (20-24 mph)",
+              "C Group (16-19 mph)",
+              "D Group (12-15 mph)"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "sessions": [
+          {
+            "discipline": "Run",
+            "time": "6:30 PM - 7:45 PM",
+            "location": "Forest Park",
+            "description": "Trail run with hill work and technique",
+            "coach": "Tanya Wilson",
+            "levels": ["All levels"]
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "sessions": [
+          {
+            "discipline": "Swim",
+            "time": "6:00 AM - 7:30 AM",
+            "location": "University Pool",
+            "description": "Speed work and race simulation",
+            "coach": "Anna Martinez",
+            "levels": ["Intermediate", "Advanced"]
+          }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "sessions": [
+          {
+            "discipline": "Bike",
+            "time": "8:00 AM - varies",
+            "location": "Bike Shop Cafe",
+            "description": "Long rides with routes announced each Thursday",
+            "coach": "Robert Chen",
+            "levels": ["All levels", "Distance options from 25-100 miles"]
+          },
+          {
+            "discipline": "Technique Workshop",
+            "time": "10:00 AM - 11:30 AM",
+            "location": "Various",
+            "description": "Rotating focus on swim, bike, run, and transition techniques",
+            "coach": "Varies by week",
+            "levels": ["All levels"]
+          }
+        ]
+      },
+      {
+        "day": "Sunday",
+        "sessions": [
+          {
+            "discipline": "Recovery/Open",
+            "time": "Various",
+            "location": "Various",
+            "description": "Occasional special events and open practice sessions",
+            "coach": "Self-coached",
+            "levels": ["All levels"]
+          }
+        ]
+      }
+    ],
+    "specialEvents": [
+      {
+        "name": "Spring Training Camp",
+        "date": "March 25-27, 2024",
+        "location": "Mountain Lake Resort",
+        "description": "Three days of intensive training across all disciplines with technique workshops",
+        "registration": "Required, limited to 40 participants"
+      },
+      {
+        "name": "Summer Open Water Clinic",
+        "date": "June 10, 2024",
+        "location": "City Lake",
+        "description": "Full day focus on open water swimming techniques and race simulation",
+        "registration": "Required, limited to 30 participants"
+      },
+      {
+        "name": "Fall Bike Camp",
+        "date": "September 15-16, 2024",
+        "location": "Blue Ridge Mountains",
+        "description": "Weekend cycling camp with climbing focus and technique drills",
+        "registration": "Required, limited to 25 participants"
+      }
+    ]
+  }
