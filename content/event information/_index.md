@@ -1,5 +1,5 @@
 ---
-title: "Events"
+title: "Event Information"
 date: 2025-04-21
 ---
 

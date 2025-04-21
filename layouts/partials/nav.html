@@ -1,10 +1,69 @@
 <nav>
-    <ul>
+    <ul class="main-menu">
         {{ $currentPage := . }}
+        {{ $menuDepth := .Site.Params.mainMenuDepth | default 1 }}
+        
         {{ range .Site.Menus.main }}
-        <li{{ if $currentPage.IsMenuCurrent "main" . }} class="active"{{ end }}>
-            <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
+            {{ if not .Parent }}
+                {{ $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                
+                <!-- Explicitly check for Register & Join menu -->
+                {{ $isRegisterJoin := eq .Name "Register & Join" }}
+                
+                <!-- Regular check for other menu items with children -->
+                {{ $childMenuItems := where $.Site.Menus.main "Parent" .Name }}
+                {{ $hasConfiguredChildren := gt (len $childMenuItems) 0 }}
+                
+                <!-- Content-based children check -->
+                {{ $hasContentChildren := false }}
+                {{ $sectionName := trim (index (split .URL "/") 1) "/" }}
+                {{ if and $sectionName (ne $sectionName "#") (not (in .URL "://")) }}
+                    {{ $sectionPages := where $currentPage.Site.RegularPages "Section" $sectionName }}
+                    {{ if gt (len $sectionPages) 0 }}
+                        {{ $hasContentChildren = true }}
+                    {{ end }}
+                {{ end }}
+                
+                <li class="{{ if $isActive }}active{{ end }} {{ if or $hasConfiguredChildren $hasContentChildren $isRegisterJoin }}has-children{{ end }}">
+                    <a href="{{ .URL }}" {{ if in .URL "://" }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+                    
+                    <!-- Special case for Register & Join -->
+                    {{ if and (ge $menuDepth 2) $isRegisterJoin }}
+                        <ul class="sub-menu">
+                            <!-- Manually define the children based on the TOML configuration -->
+                            <li>
+                                <a href="https://theautomatedclub.com/MaitlandTriClub/" target="_blank" rel="noopener">Register to race/volunteer</a>
+                            </li>
+                            <li>
+                                <a href="https://theautomatedclub.com/MaitlandTriClub/Enter/seasonpass20222023" target="_blank" rel="noopener">Buy season pass</a>
+                            </li>
+                            <li>
+                                <a href="https://www.triathlon.org.au/Membership/Annual_Membership.htm" target="_blank" rel="noopener">Join MTC - Tri Aus</a>
+                            </li>
+                        </ul>
+                    
+                    <!-- Case for other configured children -->
+                    {{ else if and (ge $menuDepth 2) $hasConfiguredChildren }}
+                        <ul class="sub-menu">
+                            {{ range sort $childMenuItems "Weight" }}
+                                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                    <a href="{{ .URL }}" {{ if in .URL "://" }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+                                </li>
+                            {{ end }}
+                        </ul>
+                    
+                    <!-- Case for content-based children -->
+                    {{ else if and (ge $menuDepth 2) $hasContentChildren }}
+                        <ul class="sub-menu">
+                            {{ range (where $currentPage.Site.RegularPages "Section" $sectionName) }}
+                                <li class="{{ if eq $currentPage.RelPermalink .RelPermalink }}active{{ end }}">
+                                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                </li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                </li>
+            {{ end }}
         {{ end }}
     </ul>
 </nav>

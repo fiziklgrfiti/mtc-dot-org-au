@@ -1,62 +1,55 @@
 ---
-title: "2023 Club Championship Results"
+title: "New Training Schedule for 2024"
 date: 2024-11-15
-summary: "Congratulations to all participants in our 2023 Club Championship Series!"
+summary: "Check out our updated training schedule for the upcoming season!"
 ---
 
-## 2023 Club Championship Results
+## New Training Schedule for 2024
 
-After a fantastic season of racing, we're excited to announce the final standings for our 2023 Club Championship. This year saw record participation, with over 75% of our members competing in at least one championship event.
+We're excited to announce our new training schedule for the 2024 season! Based on member feedback and coaching recommendations, we've optimized our training sessions to help you achieve your triathlon goals.
 
-### Overall Champions
+### Weekly Schedule
 
-#### Women's Division
-1. **Jennifer Lopez** - 478 points
-2. **Samantha Wright** - 455 points
-3. **Tracy Morgan** - 441 points
+#### Swimming
+- **Monday:** 6:00 AM - 7:30 AM - Technique focus
+- **Wednesday:** 6:00 PM - 7:30 PM - Endurance and intervals
+- **Saturday:** 7:00 AM - 8:30 AM - Open water skills (during summer months)
 
-#### Men's Division
-1. **Kevin Chen** - 489 points
-2. **Marcus Williams** - 464 points
-3. **Derek Johnson** - 452 points
+#### Cycling
+- **Tuesday:** 5:30 AM - 7:00 AM - Hill repeats
+- **Thursday:** 5:30 PM - 7:00 PM - Time trial practice
+- **Sunday:** 7:00 AM - 10:00 AM - Long ride (distance varies by training phase)
 
-### Age Group Winners
+#### Running
+- **Tuesday:** 6:00 PM - 7:00 PM - Track intervals
+- **Thursday:** 6:30 AM - 7:30 AM - Tempo run
+- **Saturday:** 9:00 AM - 10:30 AM - Long run (distance varies by training phase)
 
-#### Women
-- 18-29: Emily Parker
-- 30-39: Jennifer Lopez
-- 40-49: Allison Taylor
-- 50-59: Barbara White
-- 60+: Nancy Garcia
+### Training Phases
 
-#### Men
-- 18-29: Tyler Brown
-- 30-39: Kevin Chen
-- 40-49: Marcus Williams
-- 50-59: Robert Lopez
-- 60+: George Smith
+The schedule will follow a periodized approach with four main phases:
+1. **Base Building** (December-February)
+2. **Build Phase** (March-April)
+3. **Race Specific** (May-September)
+4. **Recovery/Maintenance** (October-November)
 
-### Most Improved Athletes
+### Beginner-Friendly Sessions
 
-This year's Most Improved awards go to:
-- **Women:** Rebecca Thompson
-- **Men:** Jason Garcia
+New to triathlon? We've designated specific sessions each week that are particularly suitable for beginners:
+- Monday swim sessions
+- Thursday evening rides
+- Saturday runs
 
-Both athletes showed exceptional dedication to training and made significant progress throughout the season.
+Coaches will provide extra guidance and modified workouts for newcomers during these sessions.
 
-### Championship Events
+### Location Details
 
-This year's series consisted of these five races:
-1. Winter Duathlon (January)
-2. Spring Olympic Triathlon (April)
-3. Summer Sprint Triathlon (July)
-4. Fall Half-Distance Triathlon (September)
-5. Thanksgiving 10K Run (November)
+- **Swimming:** City Aquatic Center (weekdays), Lake Simmons (Saturday open water)
+- **Cycling:** Club House parking lot (weekday rides), Town Square (Sunday long rides)
+- **Running:** Memorial Park Track (Tuesday), Riverside Trail (Thursday/Saturday)
 
-Points were awarded based on overall placement, age group placement, and participation, with bonuses for volunteering at club events.
+### Coach Availability
 
-### Awards Ceremony
+Our certified coaches will be present at all scheduled sessions. For personalized training plans or one-on-one coaching, please contact our head coach at coach@triathlonclub.org.
 
-The annual awards banquet will be held on December 10th at Mountain View Restaurant. Tickets are available through the members portal until December 1st.
-
-Congratulations to all our participants, and thank you to our volunteers and sponsors who made this season possible!
+We look forward to training with you!
