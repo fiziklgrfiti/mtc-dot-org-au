@@ -1,3 +1,32 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://mtc.org.au"
+languageCode = "en-us"
+title = "Maitland Triathlon Club"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 3
+  [[menu.main]]
+    name = "Training"
+    url = "/training/"
+    weight = 4
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 5
+
+[params]
+  description = "Maitland Triath Club triathlon club dedicated to swimming, cycling, and running"
+  author = "Triathlon Club"
+  images = ["images/logo.png"]
